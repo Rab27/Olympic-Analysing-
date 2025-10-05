@@ -23,3 +23,28 @@ from sklearn.impute import SimpleImputer
 # Additional Utilities
 import warnings
 warnings.filterwarnings('ignore')
+
+
+olympic-analysis/
+│
+├── data/
+│   ├── raw/                 # Original datasets
+│   ├── processed/           # Cleaned and transformed data
+│   └── external/            # Additional data sources
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_ml_modeling.ipynb
+│   └── 04_visualization.ipynb
+│
+├── src/
+│   ├── data_processing.py
+│   ├── modeling.py
+│   ├── visualization.py
+│   └── utils.py
+│
+├── models/                  # Saved trained models
+├── reports/                 # Analysis reports and findings
+├── images/                  # Generated visualizations
+└── requirements.txt
