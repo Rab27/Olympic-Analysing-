@@ -1,4 +1,4 @@
-
+i
   # Data Manipulation & Analysis
 import pandas as pd
 import numpy as np
@@ -67,3 +67,5 @@ from src.data_processing import DataLoader
 loader = DataLoader()
 df = loader.load_olympic_data()
 df.head()
+![Alt Text](https://example.com/image.jpg)
+![Olympic Rings](https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympic_rings.svg)
