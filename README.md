@@ -48,3 +48,22 @@ olympic-analysis/
 ├── reports/                 # Analysis reports and findings
 ├── images/                  # Generated visualizations
 └── requirements.txt
+
+Python 3.8+
+Jupyter Notebook
+
+# Clone repository
+git clone https://github.com/yourusername/olympic-analysis.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook
+# Load and explore data
+import pandas as pd
+from src.data_processing import DataLoader
+
+loader = DataLoader()
+df = loader.load_olympic_data()
+df.head()
